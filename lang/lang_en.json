@@ -1,0 +1,15 @@
+{
+    "welcome": "Hello! Solve this problem to pass the captcha: {captcha}",
+    "captcha_passed": "Captcha successfully passed! Use /lang for language selection",
+    "incorrect_answer": "Incorrect answer. Try again.",
+    "numeric_input": "Please enter a numeric answer.",
+    "language_set": "Language set to English.",
+    "welcome_message": "Welcome, {username}! To get $50 GRUM, subscribe to our channel: @nmkyt1",
+    "sub_check_button": "Check channel follow",
+    "earn_grum_button": "\uD83D\uDD35 Earn $GRUM \uD83D\uDD35",
+    "earn_ton_button": "\uD83D\uDC8E Earn TON \uD83D\uDC8E",
+    "connect_wallet_button": "\uD83D\uDC5B Connect the wallet \uD83D\uDC5B",
+    "send_transaction_button": "Send Transaction",
+    "disconnect_wallet_button": "Disconnect",
+    "main_menu": "$GRUM BIG AIRDROP 🚀\n\nYour balance: $GRUM {GRUM_balance}\n\n\n$GRUM is a veru improssive project, because it contaens all de fun you hav un Tulegrum.\nSomeday in near future $GRUM will hav its own media chonnel that will hav oll de nevs about other improssive projucts on Tulegrum!\n\n————————————————\n\nWant to get even more $GRUM ?  Just bring a friend, or better all of your friends! Send an invite - once a friend launches the bot and fulfils all the conditions, you'll get 50 $GRUM!\n\nYou will get bonus for every friend!\n\n————————————————\n\n🤝 Your referral link: {referral}\n\n👨‍👩‍👧‍👦 Number of referrals: {referral_count}\n\nYour balance: {TON_balance} TON 💎\n\nYour TON Wallet: {TON_LINK}"
+}
