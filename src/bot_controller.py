@@ -22,17 +22,21 @@ async def send_welcome(message: types.Message):
     context = dp.current_state(user=message.from_user.id)
     await context.set_data({'message': message})
 
-    referral_code = message.get_args()
-    if referral_code:
-        user = Session.query(User).filter(User.telegram_id == referral_code).first()
-        user.referrals_count = int(user.referrals_count) + 1
-        user.grum_balance = int(user.grum_balance) + 50
     user = Session.query(User).filter(User.telegram_id == message.from_user.id).first()
 
     if not user:
         user = User(telegram_id=message.from_user.id, language='ru')
         Session.add(user)
         Session.commit()
+        referral_code = message.get_args()
+        if referral_code:
+            try:
+                user = Session.query(User).filter(User.telegram_id == referral_code).first()
+                user.referrals_count = int(user.referrals_count) + 1
+                user.grum_balance = int(user.grum_balance) + 50
+                Session.commit()
+            except AttributeError as e:
+                logging.error(e)
         await select_language(message)
     else:
         user_language = get_user_language(message.from_user.id, Session)

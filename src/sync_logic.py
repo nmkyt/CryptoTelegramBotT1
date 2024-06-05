@@ -41,7 +41,6 @@ def get_translation(user_language, key, **kwargs):
 
 # Кэшы
 user_language_cache = {}
-user_sub_cache = {}
 
 
 def get_user_language(user_id: int, db: Session):
