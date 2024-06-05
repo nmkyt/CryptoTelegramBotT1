@@ -1,6 +1,6 @@
 {
     "welcome": "Hello! Solve this problem to pass the captcha: {captcha}",
-    "captcha_passed": "Captcha successfully passed! Use /lang for language selection",
+    "captcha_passed": "Captcha successfully passed!",
     "incorrect_answer": "Incorrect answer. Try again.",
     "numeric_input": "Please enter a numeric answer.",
     "language_set": "Language set to English.",
@@ -9,7 +9,16 @@
     "earn_grum_button": "\uD83D\uDD35 Earn $GRUM \uD83D\uDD35",
     "earn_ton_button": "\uD83D\uDC8E Earn TON \uD83D\uDC8E",
     "connect_wallet_button": "\uD83D\uDC5B Connect the wallet \uD83D\uDC5B",
-    "send_transaction_button": "Send Transaction",
+    "send_transaction_button": "\uD83D\uDCB8 Send Transaction \uD83D\uDCB8",
     "disconnect_wallet_button": "Disconnect",
+    "connect_button": "\uD83D\uDE80 Start connecting",
+    "main_menu_button": "\uD83D\uDCC3 Main menu",
+    "connect_wallet_text": "Connect your TON wallet to get your $GRUM\n\nConnect wallet within 3 minutes.",
+    "connection_success": "✅ Wallet connected!\n\nWe will send tokens to this address as soon as AIRDROP is over!\n\nYour TON wallet: {wallet_address}",
+    "disconnection_success": "✅Wallet disconnected!",
+    "timeout_error": "Timeout Error!",
+    "settings_button": "⚙\uFE0F Settings",
+    "change_lang_button": "Change language",
+    "settings_menu": "⚙\uFE0F Here you can change or update your data ⚙\uFE0F ",
     "main_menu": "$GRUM BIG AIRDROP 🚀\n\nYour balance: $GRUM {GRUM_balance}\n\n\n$GRUM is a veru improssive project, because it contaens all de fun you hav un Tulegrum.\nSomeday in near future $GRUM will hav its own media chonnel that will hav oll de nevs about other improssive projucts on Tulegrum!\n\n————————————————\n\nWant to get even more $GRUM ?  Just bring a friend, or better all of your friends! Send an invite - once a friend launches the bot and fulfils all the conditions, you'll get 50 $GRUM!\n\nYou will get bonus for every friend!\n\n————————————————\n\n🤝 Your referral link: {referral}\n\n👨‍👩‍👧‍👦 Number of referrals: {referral_count}\n\nYour balance: {TON_balance} TON 💎\n\nYour TON Wallet: {TON_LINK}"
 }

@@ -68,3 +68,9 @@ def generate_referral_link(bot_username: str, referrer_id: int = None):
 
 def get_connector(chat_id: int):
     return TonConnect(MANIFEST_URL, storage=TcStorage(chat_id))
+
+
+def set_language(language, user_id):
+    user = Session.query(User).filter(User.telegram_id == user_id).first()
+    user.language = language
+    Session.commit()

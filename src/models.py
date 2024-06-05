@@ -18,9 +18,9 @@ class User(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     telegram_id = Column(Integer, unique=True, index=True)
-    grum_balance = Column(Integer)
-    ton_balance = Column(Integer)
-    referrals_count = Column(Integer)
+    grum_balance = Column(Integer, default=0)
+    ton_balance = Column(Integer, default=0)
+    referrals_count = Column(Integer, default=0)
     language = Column(String)
     ton_link = Column(String)
 
