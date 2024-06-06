@@ -70,6 +70,7 @@ def get_connector(chat_id: int):
 
 
 def set_language(language, user_id):
+    user_language_cache[user_id] = language
     user = Session.query(User).filter(User.telegram_id == user_id).first()
     user.language = language
     Session.commit()
